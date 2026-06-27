@@ -1,0 +1,11 @@
+public class NodoBST{
+  Reclamo reclamo;
+  NodoBST izquierdo;
+  NodoBST derecho;
+
+  public NodoBST(Reclamo reclamo){
+    this.reclamo = reclamo;
+    this.izquierdo = null;
+    this.derecho = null;
+  }
+}
